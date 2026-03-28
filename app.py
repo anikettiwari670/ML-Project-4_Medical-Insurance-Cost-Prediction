@@ -16,7 +16,7 @@ model_columns = joblib.load("Model_Columns.pkl")
 st.set_page_config(page_title = "Medical Insurance Cost Prediction", page_icon = ":hospital:", layout = "centered")
 st.title("🏥 **Medical Insurance Cost Prediction**")
 
-st.write("Enter the Details Below to get an Estimate of the Medical Insurance Cost.")
+st.write("Enter the Details Below to get an Estimate of the Medical Insurance Cost:")
 
 # User input fields.
 Age = st.number_input("Age", min_value = 0, max_value = 120)
