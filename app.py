@@ -13,7 +13,7 @@ scaler = joblib.load("Scaler.pkl")
 model_columns = joblib.load("Model_Columns.pkl")
 
 # UI set up. 
-st.set_page_config(page_title="Medical Insurance Cost Prediction", page_icon = ":hospital:", layout = "centered")
+st.set_page_config(page_title = "Medical Insurance Cost Prediction", page_icon = ":hospital:", layout = "centered")
 st.title("🏥 **Medical Insurance Cost Prediction**")
 
 st.write("Enter the Details Below to get an Estimate of the Medical Insurance Cost.")
